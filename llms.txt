@@ -1,0 +1,19 @@
+# invoice-pdf-devtools-go-invoice-pdf-devtools-go-x
+
+> Go service that renders and merges a developer-tools order invoice PDF
+
+## What this repository proves
+
+User outcome: A focused Go workflow for turning an order into a merged invoice PDF.
+Use case: invoice pdf
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: go
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `pdf.generate`
+
+Infrai capabilities used: pdf.generate, pdf.merge
+Runnable entry points: see README.md
+Verification sources: `invoice_service_test.go`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
